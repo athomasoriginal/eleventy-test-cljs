@@ -6,7 +6,10 @@
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "2.0.1",
-    "@11ty/eleventy-plugin-rss": "1.2.0"
+    "@11ty/eleventy-plugin-rss": "1.2.0",
+    "nbb": "1.2.179",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "scripts": {
     "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",

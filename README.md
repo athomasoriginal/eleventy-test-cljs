@@ -20,7 +20,8 @@ Be sure to have the following tools installed
 
 ## Quickstart
 
-- Move into `eleventy-hiccup
+- Clone repo
+- Move into root
 - Install JS dependencies
   ```command
   yarn install
@@ -30,6 +31,8 @@ Be sure to have the following tools installed
   ```command
   yarn run dev
   ```
+
+Visit http://localhost:8080/test/index.html
 
 ## Feature Choices
 
