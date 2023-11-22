@@ -42,7 +42,7 @@ To test this work against a development version of nbb:
   ```
 - uncomment the `import` line to `nbb_api.js` in `eleventy.js`
 
-When you make changes to `nbb` you can run `yarn dev` in `eleventy-hiccup` and
+When you make changes to `nbb` you can run `yarn dev` in `eleventy-test-cljs` and
 see the results of those changes.  Ultimately, the goal is that changes to
 `src.extra.components` are live updated on http://localhost:8080/test/index.html
 
