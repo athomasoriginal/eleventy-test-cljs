@@ -16,10 +16,15 @@ function compile_clj(inputContent, inputPath) {
 
   this.addDependencies(inputPath, ["./src/extra/components.cljs"]);
 
+
   return async (data) => {
+    // @note enable to test against a dev version of nbb
+    //
+    // const { loadFile } = await import('./lib/nbb_api.js');
+
     const { loadFile } = await import('nbb');
-    const result = await loadFile("run_clj.cljs");
-    return result;
+    let result = await loadFile("run_clj.cljs");
+    return result
   };
 
 }
